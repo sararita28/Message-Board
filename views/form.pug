@@ -1,0 +1,19 @@
+extends layout 
+
+block content 
+    head
+        <div id="mydiv">
+        <div id="top">
+            a <i class="fas fa-comments fa-4x"></i>
+            h1= title
+        </div>
+        h2  Speak your mind freely
+        </div>
+
+    body 
+        section.form-container 
+            form(method='POST' action='/new')
+                input(type="text", placeholder="Title" name="title" id="title")
+                textarea(placeholder="Enter your text here" name="text")
+                input(type="text" placeholder="Your name" name="author" id="author")
+                button(type="submit" id="submitBtn") Publish

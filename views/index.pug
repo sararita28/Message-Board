@@ -1,0 +1,26 @@
+extends layout
+
+block content
+  head
+    <div id="mydiv">
+      <div id="top">
+        a <i class="fas fa-comments fa-4x"></i>
+        h1= title
+      </div>
+      h2  Speak your mind freely
+    </div>
+
+  body 
+    .button-container
+      a(href=`http://localhost:${process.env.PORT || 3000}/new`): button.compose= "Say Something"
+
+    each message in messages 
+      section.message-card 
+        h3= message.title
+        p.description= message.text
+        p.author= message.author
+        <div id="bottom">
+          p.date= message.added
+          a <i class="fas fa-history"></i>
+        </div>
+  

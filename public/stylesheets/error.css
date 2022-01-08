@@ -1,0 +1,19 @@
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@500&family=Lora&display=swap");
+
+#div {
+  margin-top: 10vh;
+  margin-right: 2vw;
+  color: #5c6bc0;
+  font-family: "Josefin Sans", sans-serif;
+  display: grid;
+  align-items: center;
+  justify-content: center;
+}
+
+#div > p {
+  font-size: 90px;
+}
+
+#div > h6 {
+  font-size: 30px;
+}

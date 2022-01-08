@@ -1,0 +1,19 @@
+extends layout
+
+block content
+  head
+    <div id="mydiv">
+      <div id="top">
+        a <i class="fas fa-comments fa-4x"></i>
+        h1 Message Board
+      </div>
+      h2  Speak your mind freely
+    </div>
+
+  body 
+    <div id="div">
+      p= error.status
+      h6= message
+    </div>
+    .button-container
+        a(href=`http://localhost:${process.env.PORT || 3000}/`): button.compose= "Take me home"

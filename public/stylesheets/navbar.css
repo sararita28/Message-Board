@@ -1,0 +1,51 @@
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@500&family=Lora&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  background-color: #e8eaf6;
+}
+
+#mydiv {
+  height: 20vh;
+  width: 100vw;
+  background-color: #5c6bc0;
+  border-bottom-left-radius: 30px;
+  border-bottom-right-radius: 30px;
+  display: grid;
+  align-items: center;
+  justify-content: center;
+}
+
+#top {
+  display: inline-flex;
+  margin-left: -10px;
+}
+
+.fa-comments {
+  color: white;
+  margin-right: 20px;
+}
+
+h1 {
+  color: white;
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+h2 {
+  color: white;
+  font-style: italic;
+  font-family: "Lora", serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: -5vh;
+}
