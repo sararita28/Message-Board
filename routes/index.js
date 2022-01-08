@@ -4,14 +4,14 @@ var router = express.Router();
 const messages = [
   {
     title: "Hi there!",
-    text: "lorem ipsum",
+    text: "You can do this!",
     author: "Amando",
     added: new Date().toLocaleString(),
   },
   {
     title: "Hello World!",
-    text: "lorem ipsum",
-    author: "Charles",
+    text: "Let's start programming together",
+    author: "Sara",
     added: new Date().toLocaleString(),
   },
 ];
